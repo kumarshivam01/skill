@@ -1,0 +1,10 @@
+Tag :- HTML tags are fundamental elements used in web development to structure and format content on a webpage.
+       They consist of opening and closing elements enclosed in angle brackets, like <tagname> and </tagname>. 
+       Tags define the type of content they surround, such as headings (<h1> to <h6>), paragraphs (<p>), links 
+       (<a>), images (<img>), lists (<ul>, <ol>, <li>), and more.
+
+
+element :- In HTML, an element is a fundamental building block of a web page, consisting of a pair of tags that 
+            define the structure and content of the page. Elements are used to create and display various types 
+            of content, such as text, images, links, forms, and more. Each HTML element has a specific purpose and
+             attributes that control its behavior and appearance.

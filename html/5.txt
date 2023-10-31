@@ -1,0 +1,6 @@
+
+DOCTYPE:- 
+
+The <!DOCTYPE> declaration in HTML is a short code snippet placed at the beginning of an HTML document
+ to specify the version of HTML being used. It helps the web browser interpret and render the web page 
+ correctly. It's not an HTML element but rather an instruction to the browser.
