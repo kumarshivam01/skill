@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+
+        h1 {
+            color: #3498db;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+        video {
+            width: 100%;
+        }
+
+        canvas {
+            border: 1px solid #ccc;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML5 Features Showcase</h1>
+    </header>
+
+    <!-- Feature 1: Article Tag -->
+    <article>
+        <h2>Feature 1: Article Tag</h2>
+        <p>
+            The <code>&lt;article&gt;</code> tag is used to represent a self-contained piece of content
+            that could be distributed and reused independently. It is suitable for articles, blog posts, comments,
+            or any other independent content block.
+        </p>
+    </article>
+
+    <!-- Feature 2: Video Tag -->
+    <article>
+        <h2>Feature 2: Video Tag</h2>
+        <p>
+            The <code>&lt;video&gt;</code> tag allows you to embed video content directly into your HTML.
+            It supports various video formats and provides a native way to control playback, volume, and more.
+        </p>
+        <video controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </article>
+
+    <!-- Feature 3: Canvas Tag -->
+    <article>
+        <h2>Feature 3: Canvas Tag</h2>
+        <p>
+            The <code>&lt;canvas&gt;</code> tag provides a drawable region on your web page using JavaScript.
+            It is commonly used for creating dynamic graphics, animations, and interactive content.
+        </p>
+        <canvas id="myCanvas" width="300" height="150"></canvas>
+        <script>
+            // Example: Drawing on the Canvas
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#3498db";
+            ctx.fillRect(20, 20, 150, 100);
+        </script>
+    </article>
+
+</body>
+
+</html>

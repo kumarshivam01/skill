@@ -1,0 +1,78 @@
+ Q 1. List out the features of HTML 5
+
+    Ans:- Semantic Elements: 
+                <header>, <footer>, <nav>, <article>, <section>, <aside>, <figure>, <figcaption>, <main>: These elements provide more meaningful structure to web documents, making it easier for search engines and developers to understand the content.
+          Multimedia Support:
+                <audio> and <video>: Native support for embedding audio and video content without the need for third-party plugins like Flash.
+          Canvas Element:
+                <canvas>: A drawing surface that allows dynamic rendering of graphics, charts, and animations using JavaScript.
+          Local Storage:
+                localStorage and sessionStorage: Allow web applications to store data locally on the user's device, persisting even after the browser is closed.
+          Web Storage:
+                localStorage and sessionStorage: Allow web applications to store data locally on the user's device, persisting even after the browser is closed.
+          Geolocation API:
+                Enables web applications to access the user's geographical location information.
+
+
+ Q 2. What are the html entities ? list out 5 commonly used HTML entities
+    Ans:-  
+
+        1. `&lt;` - Less than sign (`<`): Represents the opening angle bracket (`<`). It is used to display the less than symbol without initiating an HTML tag.
+
+        2. `&gt;` - Greater than sign (`>`): Represents the closing angle bracket (`>`). It is used to display the greater than symbol without closing an HTML tag.
+
+        3. `&amp;` - Ampersand (`&`): Represents the ampersand symbol (`&`). It is used to display the ampersand without starting an HTML entity.
+
+        4. `&quot;` - Quotation mark (`"`): Represents the double quotation mark (`"`). It is used to display the quotation mark without closing an attribute value enclosed in double quotes.
+
+        5. `&nbsp;` - Non-Breaking Space: Represents a non-breaking space in HTML. It is used to create a space that will not break into a new line. This is especially useful for formatting purposes when you want to ensure that two words or characters stay together.
+
+q 3.  Define accessibility in the context of web development. Discuss why its essential to create accessable
+        website and how it benefit different user group.
+    Ans:- 
+        1. **Inclusivity and Equal Access:**
+        - Accessibility ensures that everyone, regardless of their abilities or disabilities, can access and interact with digital content. It promotes inclusivity by breaking down barriers and providing equal opportunities for information and services.
+
+        2. **Legal and Ethical Compliance:**
+        - Many countries have laws and regulations that mandate web accessibility. Failure to comply can result in legal consequences. Adhering to accessibility standards is not just a legal requirement but also an ethical responsibility to make the web inclusive for all.
+
+        3. **Diverse User Base:**
+        - The user base of the internet is incredibly diverse. People access websites using a variety of devices and assistive technologies. An accessible website accommodates this diversity, ensuring a positive user experience for everyone.
+
+        4. **Improved SEO:**
+        - Many accessibility practices, such as providing descriptive alt text for images, using semantic HTML, and creating clear and well-structured content, also contribute to improved search engine optimization (SEO). Search engines value content that is accessible and user-friendly.
+
+        5. **Enhanced User Experience:**
+        - Accessible design often leads to a better user experience for all users, not just those with disabilities. Clear navigation, readable text, and well-designed layouts benefit everyone, creating a more user-friendly and efficient website.
+
+        6. **Targeting a Growing Aging Population:**
+        - As the global population ages, the number of people with age-related impairments increases. Web accessibility becomes crucial in providing a positive online experience for older individuals who may have visual or motor limitations.
+
+        7. **Technological Advancements:**
+        - Advances in technology continually introduce new ways for people to access the web. Ensuring accessibility prepares websites for emerging technologies and ensures compatibility with a wide range of devices and interfaces.
+
+        8. **Corporate Social Responsibility:**
+        - Demonstrating a commitment to accessibility is part of corporate social responsibility. Companies that prioritize inclusivity in their digital presence contribute to a more equitable and compassionate online environment.
+
+Q 4.  List any three ways which help us in improving the accessibility of HTML
+    Ans:- 
+        1. **Use Semantic HTML:**
+        - Semantic HTML tags provide meaning and structure to content, making it easier for assistive technologies and users to understand the purpose of different elements. Some examples include:
+            - `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`: Use these semantic elements to define the structure of your document.
+            - `<h1>` to `<h6>`: Use heading elements appropriately to create a clear document outline.
+            - `<p>`, `<a>`, `<button>`, `<form>`: Ensure the correct use of these elements for paragraphs, links, buttons, and forms.
+
+        2. **Provide Descriptive Text with Alt Attributes:**
+        - Always include descriptive alternative text for images using the `alt` attribute in the `<img>` tag. This text should convey the purpose or content of the image, assisting users who cannot see the image. For example:
+            ```html
+            <img src="example.jpg" alt="A group of people enjoying a picnic in the park">
+            ```
+
+        3. **Create Accessible Forms:**
+        - Forms are a crucial part of many websites, and making them accessible is essential. Use the following techniques:
+            - Associate form labels explicitly with their corresponding form controls using the `<label>` element or the `aria-labelledby` attribute.
+           
+Q5. 
+
+
+
