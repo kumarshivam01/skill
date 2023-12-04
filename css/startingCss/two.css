@@ -1,0 +1,18 @@
+/* BEM CSS */
+.paragraph {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.paragraph--intro {
+    background-color: #f0f0f0;
+}
+
+.paragraph--important {
+    color: red;
+    font-weight: bold;
+}
+
+.paragraph--highlight {
+    background-color: yellow;
+}
